@@ -2,6 +2,9 @@
  
 Sample app is in test-app, a compilable component is in the signInWithApple folder. 
 
+    npx degit john--kane/svelte-sign-in-with-apple apple
+
+
 This component provides the basic config for the button and meta tags. When using this component, pass through the clientId, scope, redirctURI and state information as defined here:
 
 https://developer.apple.com/documentation/signinwithapplejs/configuring_your_webpage_for_sign_in_with_apple
